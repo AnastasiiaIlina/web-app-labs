@@ -1,0 +1,439 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li::marker {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+.pinkColor {
+  color: rgba(243, 74, 79, 1);
+}
+
+.whiteColor {
+  color: #fff;
+}
+
+.nav {
+  display: none;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.verticalAlign {
+  width: 1px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header {
+  background-color: #1f1e1e;
+  height: 70px;
+  position: relative;
+  color: #fff;
+}
+
+.menu-icon {
+  width: 45px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  right: 3%;
+  background-color: rgba(243, 74, 79, 0.7);
+  margin: 5px 0;
+  padding: 7px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(243, 74, 79, 1);
+  z-index: 5555;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 70px 0;
+  cursor: pointer;
+}
+
+.displayNone {
+  display: none;
+}
+
+.menu li {
+  padding: 3% 0;
+}
+
+.menu-icon {
+  z-index: 5555;
+}
+
+.menu li:hover {
+  background-color: #ff8e8e;
+}
+
+.menu a:hover {
+  color: #c51433;
+  font-weight: bolder;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.slider {
+  min-height: 400px;
+  background: url("../img/gym-bg.jpg") no-repeat center / cover;
+  padding: 20px 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.slider h2 {
+  display: inline-block;
+  padding: 10px;
+  font-size: 25px;
+  background-color: rgba(243, 74, 79, 1);
+  border-radius: 2px;
+}
+
+.slider__text {
+  background-color: #1f1e1e;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.home {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.home p {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.column {
+  width: 90%;
+  margin: 0 auto 5% auto;
+  text-align: center;
+}
+
+.training h3 {
+  display: inline-block;
+}
+
+.training p {
+  margin-top: 10px;
+}
+
+.training i {
+  color: rgba(243, 74, 79, 1);
+}
+
+.trainers {
+  background-color: #1f1e1e;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.h3 {
+  font-size: 20px;
+  padding: 10px 0 5px 0;
+  margin-bottom: -10px;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 50px;
+  display: inline-block;
+}
+
+.trainers,
+.trainerBlock {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.trainerBlock {
+  width: 90%;
+  padding-top: 3%;
+}
+
+.last {
+  padding-bottom: 3%;
+}
+
+.trainerBlock p {
+  font-weight: bold;
+}
+
+.imgTrainer img,
+.photo {
+  width: 100%;
+  max-width: 400px;
+}
+
+.greyColor {
+  color: #a5a3a3;
+  font-size: 14px;
+}
+
+.navigation {
+  margin: 5px;
+}
+
+.photo {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.pricing {
+  text-align: center;
+  background-color: rgba(243, 74, 79, 1);
+  padding: 20px 10px 30px 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: rgba(191, 53, 53, 0.59);
+  margin: 3% auto 0 auto;
+  padding: 15px 5px;
+  border-radius: 3px;
+  border: 1px solid rgba(191, 53, 53, 0.59);
+  max-width: 460px;
+  cursor: pointer;
+}
+
+.card h4,
+.footer h4 {
+  font-size: 15px;
+}
+
+.card:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.left {
+  width: 35%;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.right {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.card__items {
+  list-style: none;
+}
+
+.card__item:before {
+  content: "\2713";
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.price {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.footer {
+  background-color: #1f1e1e;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.form {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.form input,
+.form textarea {
+  background-color: rgba(90, 90, 90, 0.2);
+  width: 100%;
+  max-width: 350px;
+  border: none;
+  padding: 5px;
+  margin: 10px auto;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline-color: rgba(243, 74, 79, 1);
+}
+
+.submit {
+  width: 200px;
+  background-color: rgba(243, 74, 79, 1);
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 14px;
+  padding: 7px 0;
+  border-radius: 3px;
+  margin: 10px auto;
+  display: block;
+}
+
+.icons i {
+  padding: 20px 10px;
+  cursor: pointer;
+}
+
+.icons i:hover {
+  color: #848080;
+}
+
+.tel a,
+.mail a {
+  text-decoration: none;
+  color: #848080;
+}
+
+.reserved {
+  color: #848080;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+@media (min-width: 728px) {
+  .column {
+    width: 45%;
+    display: inline-block;
+    padding: 15px 10px;
+  }
+
+  .training {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .card {
+    max-width: 460px;
+    width: 30%;
+    display: inline-block;
+    margin-right: 1%;
+  }
+
+  .pricing__business {
+    margin-right: 0;
+  }
+
+  .form {
+    display: inline-block;
+    width: 70%;
+  }
+
+  .form input[type="text"],
+  .form textarea {
+    max-width: 600px;
+  }
+
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .slider__info {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .nav {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .nav__item {
+    display: inline-block;
+    padding: 5px 10px;
+  }
+
+  .nav__item:hover {
+    background-color: rgba(243, 74, 79, 1);
+  }
+
+  .nav__item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+  }
+
+  .column {
+    width: 22%;
+  }
+
+  .slider__info {
+    bottom: 20%;
+    left: 2%;
+    text-align: left;
+  }
+}

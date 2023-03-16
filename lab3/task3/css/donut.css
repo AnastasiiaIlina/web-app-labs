@@ -1,0 +1,84 @@
+#cnvDonut {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.donutChart {
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    width: 37%;
+    padding: 1.5rem 0;
+    flex-direction: column;
+}
+
+.donutChart h4{
+    margin-top: 0.5rem;
+    text-align: center
+}
+
+.pd {
+    padding: 0 1.5rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.donutChart li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #9c9fa6;
+    font-size: .75rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.donutChart li:last-child {
+    margin-right: 0;
+}
+
+.donutChart ul {
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.legentPoint {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.greenGrd{
+    background: linear-gradient(to right, rgba(6, 185, 157, 1), rgba(132, 217, 210, 1));
+}
+
+.pinkGrd {
+    background: linear-gradient(to right, rgba(255, 191, 150, 1), rgba(254, 112, 150, 1));
+}
+
+.blueGrd {
+    background: linear-gradient(to right, rgba(54, 215, 232, 1), rgba(177, 148, 250, 1));
+}
+
+@media all and (max-width:768px) {
+    .donutChart {
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+

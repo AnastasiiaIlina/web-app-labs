@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="icons/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/bars.css">
+    <link rel="stylesheet" href="css/donut.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <header class="flex fixed-top">
+      <div class="logo">
+        <a href="index.html">
+          <img class="logo-max" src="img/logo.svg" alt="logo">
+          <img class="logo-mini" src="img/logo-mini.svg" alt="logo">
+        </a> 
+      </div>
+
+      <div class="navBar flex ">
+        <div class="navBarSearch">
+          <i class="input-group-text border-0 mdi mdi-magnify"></i>
+          <input class="inputSearch" type="text" placeholder="Search projects...">
+        </div>
+
+        <nav class="navBarRight flex ">
+            <ul class="profile flex">
+              <li class="profileItem flex ">
+                <div>
+                  <img class="profilePhoto" src="img/user.jpg" alt="user">
+                </div> 
+                <div>
+                  <span class="profileName"> David Grey. H</span>
+                  <img class="profileArrow" src="img/icon-arrow.png" alt="arrow">
+                </div>
+              </li>
+            
+              <li class="profileItem flex icon-screen">
+                <img src="img/icon-screen.png" alt="screen">
+              </li>
+
+              <li class="profileItem flex ">
+                <img src="img/icon-message.png" alt="message">
+              </li>
+
+              <li class="profileItem flex ">
+                <img src="img/icon-bell.png" alt="bell">
+              </li>
+
+              <li class="profileItem flex icon-log">
+                <img src="img/icon-log.png" alt="log-out">
+              </li>
+
+              <li class="profileItem flex ">
+                <img class="icon-settings" src="img/icon-settings.png" alt="settings">
+                <img class="icon-menu" src="img/icon-menu.png" alt="settings">
+              </li>
+            </ul>
+          </nav> <!-- end navBarRight -->
+      </div> <!-- end navBar-->
+    </header>
+ 
+  <div class="container">
+    <aside>
+        <nav class="sideNav">
+          <ul>
+            <li class="sideNavItem noHover">
+              <a class="sideNavLink flex" href="">
+                  <div> 
+                    <img class="profilePhoto" src="img/user.jpg" alt="user">
+                  </div> 
+                  <div class="profileInfo">
+                    <p class= "bold"> David Grey. H</p>
+                    <p class="aside_p">Project Manager</p>
+                  </div>
+                  <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
+              </a>
+            </li>
+
+            <li class="sideNavItem ">
+              <a class="sideNavLink flex " href="">
+                <span>Dashboard </span> 
+                <i class="mdi mdi-home menu-icon "></i>
+              </a>
+            </li>
+
+            <li class="sideNavItem">
+                <a class="sideNavLink flex " href="">
+                  <span>Ui Elements</span> 
+                  <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+                </a>
+            </li>
+
+            <li class="sideNavItem">
+              <a class="sideNavLink flex " href="">
+                <span>Icons </span>
+                <i class="mdi mdi-contacts menu-icon"></i>
+              </a>
+            </li>
+              
+            <li class="sideNavItem">
+              <a class="sideNavLink flex" href="">
+                <span>Forms</span> 
+                <i class="mdi mdi-format-list-bulleted menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="sideNavItem">
+              <a class="sideNavLink flex" href="">
+                <span>Charts</span> 
+                <i class="mdi mdi-chart-bar menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="sideNavItem">
+              <a class="sideNavLink flex" href="">
+                <span>Tables</span>
+                <i class="mdi mdi-table-large menu-icon"></i>
+              </a>
+            </li>
+
+            <li class="sideNavItem">
+              <a class="sideNavLink flex" href="">
+                <span>Sample Pages</span> 
+                <i class="mdi mdi-medical-bag menu-icon"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="projects">
+          <p class="h6">Projects</p>
+          <a class="purple-btn" href="#">+ Add a project</a>
+          <p class="h6 projectCateg">Categories</p>
+
+          <ul>
+            <li class="inpRadioRed">Free</li>
+            <li class="inpRadioBlue">Pro</li>
+          </ul>
+        </div> <!--end projects-->
+    </aside>
+
+    <main>
+      <div class="mainHeader flex">
+        <div class="page-title flex">
+          <i class="mdi mdi-home"></i>
+          <p>Dashboard</p>
+        </div>
+
+        <div class="overview flex">
+          <p>Overview</p>
+          <i class="mdi mdi-alert-circle-outline icon-sm text-primary align-middle"></i>
+        </div>
+      </div> <!--end mainHeader-->
+
+      <div class="statistics flex">
+        <div class=" statist-card statisticsSales">
+          <div class="statistic-wrap">
+            <p class="h2">Weekly Sales</p>
+            <p class="statisticNumbers">$ 15,0000</p>
+            <p >Increased by 60%</p>
+            <i class="mdi mdi-chart-line mdi-24px float-right"></i>
+          </div> 
+          <img class="opacityCircle" src="img/opacityCircle.svg" alt="#">
+        </div>
+
+        <div class=" statist-card statisticsOrders">
+            <div class="statistic-wrap">
+              <p class="h2">Weekly Orders</p>
+              <p class="statisticNumbers">45,6334</p>
+              <p>Decreased by 10%</p>
+              <i class="mdi mdi-bookmark-outline mdi-24px float-right"></i>
+            </div>
+            <img class="opacityCircle" src="img/opacityCircle.svg" alt="#">
+        </div>
+
+        <div class=" statist-card statisticsVisitors">
+            <div class="statistic-wrap">
+              <p class="h2">Visitors Online</p>
+              <p class="statisticNumbers">95,5741</p>
+              <p >Increased by 5%</p>
+              <i class="mdi mdi-diamond mdi-24px float-right"></i>
+            </div>
+            <img class="opacityCircle" src="img/opacityCircle.svg" alt="#">
+        </div>
+        
+      </div> <!--end statistics-->
+      <!-- Здесь будет canvas -->
+      <div class="charts flex">
+          <div class="BarsChart">
+              <div class="description">
+                  <h4>Visit and Sales Statistics</h4>
+                  <div id="legend">
+                      <ul>
+                          <li><span class="purpleGrd legentPoint"></span>CHN</li>
+                          <li><span class="pinkGrd legentPoint"></span>USA</li>
+                          <li><span class="blueGrd legentPoint"></span>UK</li>
+                      </ul>
+                  </div>
+              </div>
+              <canvas id="cnvBars" width="540" height="270"></canvas> 
+          </div>
+
+          <div class="donutChart">
+              <div class="pd"> <h4>Traffic Sources</h4>
+                 
+               <canvas id="cnvDonut" width="350" height="175"></canvas> 
+                <div id="legend">
+                      <ul>
+                          <li>
+                              <p>
+                                 <span class="blueGrd legentPoint"></span>Search Engines  
+                              </p> 
+                              <span class="rate">30%</span>
+                          </li>
+      
+                          <li>
+                              <p>
+                                <span class="greenGrd legentPoint"></span>Direct Click  
+                              </p>
+                              <span>40%</span> 
+                          </li>
+      
+                          <li>
+                              <p>
+                                  <span class="pinkGrd legentPoint"></span>Bookmarks Click
+                              </p>
+                              <span>30%</span>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div><!-- end charts -->
+
+      <div class="recentTickets">
+        <h4>Recent tickets</h4>
+        <table id="table-tickets">
+          <thead>
+            <tr>
+              <th>Assignee</th>
+              <th>Subject</th>
+              <th>Status</th>
+              <th>Last Update</th>
+              <th>Tracking ID</th>
+            </tr>
+          </thead>
+
+          <tdody>
+            <tr>
+              <td>
+                <img class="photo-face" src="img/user.jpg" alt="user"> David Grey
+              </td>
+              <td>Fund is not recieved</td>
+              <td><div class="table-btn green-btn" >DONE</a></td>
+              <td>Dec 5, 2017</td>
+              <td>WD-12345</td>
+            </tr>
+
+            <tr>
+              <td>
+                <img class="photo-face" src="img/face2.jpg" alt="user"> Stella Johnson
+              </td>
+              <td>High loading time</td>
+              <td><div class="table-btn yellow-btn" >PROGRESS</a></td>
+              <td>Dec 12, 2017</td>
+              <td>WD-12346</td>
+            </tr>
+
+              <tr>
+                <td>
+                  <img class="photo-face" src="img/face3.jpg" alt="user"> Marina Michel
+                </td>
+                <td>Website down for one week</td>
+                <td><div class="table-btn blue-btn">ON HOLD</a></td>
+                <td>Dec 16, 2017</td>
+                <td>WD-12347</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img class="photo-face" src="img/face4.jpg" alt="user"> John Doe
+                </td>
+                <td>Loosing control on server</td>
+                <td><div class="table-btn pink-btn" >REJECTED</a></td>
+                <td>Dec 3, 2017</td>
+                <td>WD-12348</td>
+              </tr>
+          </tdody>
+        </table>
+      </div> <!--end recentTickets-->
+
+      <div class="recentUpdates">
+        <h4>Resent Updates</h4>
+        <div class="updates">
+          <div class="flexStart">
+             <div><i class="mdi mdi-account-outline icon-sm mr-2"></i>
+            <span>Jack Menqu</span></div>
+
+            <div><i class="mdi mdi-clock icon-sm mr-2"></i>
+            <span>October 3rd, 2018</span></div>
+          </div>
+           
+            <div class="updatesGallery">
+              <div class="gallery-photo"><img src="img/gallery1.jpg" alt="gallery"></div>
+              <div class="gallery-photo"><img src="img/gallery2.jpg" alt="gallery"></div>
+              <div class="gallery-photo"><img src="img/gallery3.jpg" alt="gallery"></div>
+              <div class="gallery-photo"><img src="img/gallery4.jpg" alt="gallery"></div>
+            </div>
+
+            <div class="updatePost">
+                <div><img class="photo-face" src="img/face5.jpg" alt="user"></div>
+                <div><h5>School Website - Authentication Module.</h5>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p></div>
+            </div> <!--end updatePost-->
+        </div>
+      </div> <!--end recentUpdates-->
+
+      <div class="projectStatus">
+        <h4>Project Status</h4>
+        <table id="table-status">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Due Date</th>
+              <th>Progress</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Herman Beck</td>
+              <td>May 15, 2015</td>
+              <td>
+                <div class="meter">
+                  <span class="green-btn" style="width: 25%"></span>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Mesassy Adam</td>
+              <td>Jul 01, 2015</td>
+              <td>
+                <div class="meter">
+                    <span class="pink-btn" style="width: 75%"></span>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>John Richards</td>
+              <td>Apr 12, 2015</td>
+              <td>
+                <div class="meter">
+                    <span  class="yellow-btn" style="width: 90%"></span>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>Peter Meggic</td>
+              <td>May 15, 2015</td>
+              <td>
+                <div class="meter">
+                    <span class="pink-btn" style="width: 50%"></span>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>Edward</td>
+              <td>May 03, 2015</td>
+              <td>
+                <div class="meter">
+                    <span class="blue-btn" style="width: 30%"></span>
+                </div>
+              </td>
+            </tr>
+          </tdody>
+        </table>
+
+      </div> <!--end projectStatus-->
+
+      <footer >
+        <p class="copyright">Copyright &copy; 2018. <a class="bootstrapdash" href="#" target="_blank">Anastasiia Ilina. </a>All rights reserved. </p>
+        <p>Hand-crafted &amp; made with <i class="mdi mdi-heart text-danger"></i></p>
+      </footer>
+    </main>
+  </div> <!--end container-->
+ </div>  <!-- end wrapper -->
+
+ <script src='js/script.js'></script>
+ <script src='js/bars.js'></script>
+ <script src='js/donut.js'></script>
+
+
+</body>
+</html>

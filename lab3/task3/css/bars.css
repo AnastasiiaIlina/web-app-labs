@@ -1,0 +1,77 @@
+#cnvBars {
+    width: 100%;
+}
+
+.description {
+    max-width: 540px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin:0 1.5rem;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.BarsChart {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    width: 57%;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.BarsChart ul {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.BarsChart li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    color: #9c9fa6;
+    font-size: .75rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.BarsChart li:last-child {
+    margin-right: 0;
+}
+
+.legentPoint {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.purpleGrd{
+    background: linear-gradient(to right, rgba(218, 140, 255, 1), rgba(154, 85, 255, 1));
+}
+
+.pinkGrd {
+    background: linear-gradient(to right, rgba(255, 191, 150, 1), rgba(254, 112, 150, 1));
+}
+
+.blueGrd {
+    background: linear-gradient(to right, rgba(54, 215, 232, 1), rgba(177, 148, 250, 1));
+}
+
+@media all and (max-width:768px) {
+    .BarsChart {
+        display: flex;
+        width: 100%;
+        margin-right: 0;
+    }
+}

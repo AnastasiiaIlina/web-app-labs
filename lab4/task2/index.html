@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Редактор тексту</title>
+  </head>
+  <body>
+    <div class="editor">
+      <h1>Редактор тексту</h1>
+      <div>
+        <label for="inputText" class="editor_label">Введіть текст</label>
+        <input type="text" id="inputText" class="editor_input" />
+        <div class="editor_buttons">
+          <button data-style="weight">Напівжирність</button>
+          <button data-style="italic">Нахил</button>
+          <button data-style="underline">Підкреслювання</button>
+          <button data-style="color">Колір</button>
+          <button data-style="registr">Регістр символів</button>
+        </div>
+      </div>
+      <div id="result" class="editor_result"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

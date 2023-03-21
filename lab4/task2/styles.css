@@ -1,0 +1,65 @@
+.weight {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.color {
+  color: green;
+}
+
+.registr {
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.editor {
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.editor h1 {
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+.editor_input {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+  padding: 10px 16px;
+}
+
+.editor_label {
+  display: block;
+  cursor: pointer;
+  font-size: 14px;
+  color: #7e7d7d;
+  margin-bottom: 4px;
+}
+
+.editor_buttons {
+  margin: 20px 0;
+}
+
+.editor_result:not(:empty) {
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #e3e3e3;
+}
